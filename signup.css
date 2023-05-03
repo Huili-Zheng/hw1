@@ -10,8 +10,6 @@ form {
 	margin: auto;
 }
 
-
-
 .title{
     text-align: center;
     margin-bottom: 1rem;
@@ -19,16 +17,19 @@ form {
 }
 .form-row{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: center;
+}
+
+.half-row:nth-of-type(2) {
+    margin-left: 10%;
 }
 
 .form-input{
-    width: 95%;
+    width: 100%;
     border: solid 1px gray;
     border-radius: 6px;
-    margin-right:5% ;
 }
+
 
 .form-input:focus{
     outline: none;
@@ -40,8 +41,7 @@ form {
     margin: 5% 0;
 }
 
-
-.term{
+.term, .button{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -62,10 +62,6 @@ form {
 }
 
 .button{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
 }
 .register{
